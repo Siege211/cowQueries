@@ -1,0 +1,21 @@
+{
+  "name": "cows",
+  "version": "1.0.0",
+  "description": "Display information about cows",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.8",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4"
+  }
+}
